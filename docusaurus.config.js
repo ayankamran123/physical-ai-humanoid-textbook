@@ -10,9 +10,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "My Site",
+    title: "My BOOK",
     tagline: "Dinosaurs are cool",
-    favicon: "img/favicon.ico",
+    // favicon: "img/favicon.ico",
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
     future: {
@@ -20,18 +20,15 @@ const config = {
     },
 
     // Set the production url of your site here
-    url: "https://ayankamran123.github.io",
+    url: "https://your-docusaurus-site.example.com",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: "/physical-ai-humanoid-textbook/",
+    baseUrl: "/",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "ayankamran123", // Usually your GitHub org/user name.
-    projectName: "physical-ai-humanoid-textbook", // Usually your repo name.
-    deploymentBranch: 'gh-pages',
-
-    trailingSlash: false,
+    organizationName: "facebook", // Usually your GitHub org/user name.
+    projectName: "docusaurus", // Usually your repo name.
 
     onBrokenLinks: "throw",
 
@@ -86,30 +83,33 @@ const config = {
                 respectPrefersColorScheme: true,
             },
             navbar: {
-                title: "My_BOOK",
-                logo: {
-                    alt: "My Site Logo",
-                    src: "img/logo.svg",
-                },
-                items: [
-                    {
-                        type: "docSidebar",
-                        sidebarId: "tutorialSidebar",
-                        position: "left",
-                        label: "Physical AI & Humanoid Robotics Course",
-                    },
-                    { to: "/blog", label: "Blog", position: "left" },
-                    {
-                        href: "https://github.com/facebook/docusaurus",
-                        label: "GitHub",
-                        position: "right",
-                    },
-                    {
-                        type: 'html',
-                        position: 'right',
-                        value: '<a href="#" data-toggle="modal" data-target="#loginModal">Login</a>',
-                    },
-                ],
+                title: "My BOOK",
+
+                                items: [
+
+                                    {
+
+                                        type: "docSidebar",
+
+                                        sidebarId: "tutorialSidebar",
+
+                                        position: "left",
+
+                                        label: "Physical AI & Humanoid Robotics Course",
+
+                                    },
+
+                                    {
+
+                                        href: "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME",
+
+                                        label: "GitHub",
+
+                                        position: "right",
+
+                                    },
+
+                                ],
             },
             footer: {
                 style: "dark",
